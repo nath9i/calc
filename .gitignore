@@ -1,0 +1,11 @@
+$cat .gitignore
+
+#содержимое папки ignore
+ignore/
+
+#кроме вложенной папки help - не работает
+!ignore/help/
+
+#все текстовые файлы из корня, кроме README
+*.txt
+!README.txt
